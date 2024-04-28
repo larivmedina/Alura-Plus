@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+        --branco-principal: #ffffff; 
+        --cinza-secundario: #c0c0c0;
+        --botao-azul: #167bf7;
+        --cor-de-fundo: #00030C;
+        --fonte_principal: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal {
+
+    background-image: url("../assets/Background.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.imagem__aluracombo {
+    margin: 1em 0 2em 0;
+}
+
+.titulo {
+
+    font-family: var(--fonte_principal);
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 8px;
+    padding: 16px;
+    display: block;
+    text-align: center;
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid var(--branco-principal);
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+}
+
+.container__aviso {
+
+    font-family: var(--fonte_principal);
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    text-align: center;
+
+}
+
+.imagem__aluracombo_secundaria {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.titulo__secundario {
+    font-family: var(--fonte_principal);
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+
+.secundario_descricao {
+    font-family: var(--fonte_principal);
+    color: var(--cinza-secundario);
+    font-size: 16px;
+
+}
